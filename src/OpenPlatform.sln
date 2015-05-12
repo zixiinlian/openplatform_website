@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPlatform.Web", "OpenPlatform.Web\OpenPlatform.Web.csproj", "{4E8ED9A4-9CFC-4950-A636-04CA4F786988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPlatform.WebModels", "OpenPlatform.WebModels\OpenPlatform.WebModels.csproj", "{C60FE4E3-946D-40F0-82CF-5BCB2E9A3EF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPlatform.Controllers", "OpenPlatform.Controllers\OpenPlatform.Controllers.csproj", "{BC994FBD-039A-4DCE-A854-6D49606002C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPlatform.WebLogic", "OpenPlatform.WebLogic\OpenPlatform.WebLogic.csproj", "{BD9D57D9-740F-4B47-B10C-C97E1882F38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPlatform.ServiceAgents", "OpenPlatform.ServiceAgents\OpenPlatform.ServiceAgents.csproj", "{38E8735C-5DD3-4517-9591-55EAB761B5D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPlatform.Common", "OpenPlatform.Common\OpenPlatform.Common.csproj", "{C9ABC177-7A88-4149-9D78-B9B0DED9B68F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E8ED9A4-9CFC-4950-A636-04CA4F786988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8ED9A4-9CFC-4950-A636-04CA4F786988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8ED9A4-9CFC-4950-A636-04CA4F786988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8ED9A4-9CFC-4950-A636-04CA4F786988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60FE4E3-946D-40F0-82CF-5BCB2E9A3EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60FE4E3-946D-40F0-82CF-5BCB2E9A3EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60FE4E3-946D-40F0-82CF-5BCB2E9A3EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60FE4E3-946D-40F0-82CF-5BCB2E9A3EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC994FBD-039A-4DCE-A854-6D49606002C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC994FBD-039A-4DCE-A854-6D49606002C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC994FBD-039A-4DCE-A854-6D49606002C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC994FBD-039A-4DCE-A854-6D49606002C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9D57D9-740F-4B47-B10C-C97E1882F38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9D57D9-740F-4B47-B10C-C97E1882F38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9D57D9-740F-4B47-B10C-C97E1882F38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9D57D9-740F-4B47-B10C-C97E1882F38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E8735C-5DD3-4517-9591-55EAB761B5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E8735C-5DD3-4517-9591-55EAB761B5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E8735C-5DD3-4517-9591-55EAB761B5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E8735C-5DD3-4517-9591-55EAB761B5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9ABC177-7A88-4149-9D78-B9B0DED9B68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9ABC177-7A88-4149-9D78-B9B0DED9B68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9ABC177-7A88-4149-9D78-B9B0DED9B68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9ABC177-7A88-4149-9D78-B9B0DED9B68F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
