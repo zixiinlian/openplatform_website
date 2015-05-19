@@ -10,10 +10,7 @@ namespace OpenPlatform.Web.Controllers
     {
         public ActionResult Index()
         {
-            var result = new ContentResult();
-            result.Content = Url.Content("~/app/index.html");
-            result.ContentType = "text/html";
-            return result;
+            return Redirect("/app/index");
         }
     }
 }
