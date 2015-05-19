@@ -1,0 +1,28 @@
+<div class="ms-siderbar" ng-controller="SiderbarController">
+	<div class="my-profile">
+		<a href="javascript:;" class="my-pic">
+			<img src="http://i2.hjfile.cn/f200/26/70/3032670.jpg" >
+			<br>zixinliango
+		</a>
+	</div>
+	<div class="page-sidebar-wrapper">
+		<div class="page-sidebar navbar-collapse collapse">
+			<ul class="page-sidebar-menu">
+				<li ng-repeat="msItem in classMsList" ng-class="{'active':isShow}">
+					<a href="javascript:;" ng-click="isShow = !isShow" >
+					<i class="icon-puzzle"></i>
+					<span class="title">{{msItem.name}}</span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub-menu" ng-show="isShow">
+						<li ng-repeat="submenuItem in msItem.submenuList">
+							<a ng-href="{{submenuItem.url}}">
+							<i class="icon-{{submenuItem.icon}}"></i>
+							{{submenuItem.name}}</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

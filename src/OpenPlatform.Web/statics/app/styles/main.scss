@@ -1,0 +1,50 @@
+@import "icons";
+
+$grayBg: #ecf0f1;
+
+body{
+	background: $grayBg;
+}
+.ms-header{
+  height:90px;
+  background: #fff;
+  border-bottom: 1px solid #d4d8d8;
+  .ms-header-con{
+  }
+}
+.ms-siderbar{
+  width: 230px;
+  float:left;
+  background: #34495e;
+  min-height:100%;
+  height:500px;
+  .my-profile{
+    background: #02bf87;
+    color: #fff;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    float:left;
+    .my-pic{
+       display: inline-block;
+       width: 87px;
+       height: 87px;
+       border-radius: 87px;
+    }
+  }
+}
+.ms-main{
+  padding-left:220px;
+}
+.ms-logo{
+  padding: 22px 0 0 20px;
+  display: block;
+  width:350px;
+}
+.ms-logo-wx{
+  display: block;
+  position:absolute;
+  right:30px;
+  top: 32px;
+  width:100px;
+}

@@ -1,0 +1,10 @@
+﻿@import "icon/*.png";
+
+
+@mixin iconSprite($name){
+    display: inline-block;
+    vertical-align: middle;
+    width: icon-sprite-width($name);
+    height: icon-sprite-height($name);
+    @include icon-sprite($name);
+}; 

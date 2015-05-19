@@ -1,0 +1,21 @@
+<div>
+	<h3>{{infoList.name}}</h3>
+	<ul>
+		<li ng-repeat="item in infoList.list">
+			<h4>{{item.name}}</h4>
+			<ul>
+				<li ng-repeat="item in item.list" >
+					<h5 >{{item.name}}</h5>
+					<ul>
+						<li ng-repeat="item in item.list">
+							<h6>{{item.name}}</h6>
+							<ul>
+								<li ng-repeat="item in item.list">{{item.name}}</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>

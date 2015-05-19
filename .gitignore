@@ -187,3 +187,10 @@ obj
 /src/CoursesDomain/Courses.Entities/obj
 /src/CoursesDomain/Courses.Entities/bin
 /src/CoursesDomain/Courses.Entities/obj
+
+# front-end
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components

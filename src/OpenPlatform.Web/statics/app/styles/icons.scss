@@ -1,0 +1,5 @@
+@import "iconSprite";
+
+.icon-search{
+    @include iconSprite(search); 
+}
