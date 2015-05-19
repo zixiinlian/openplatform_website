@@ -7,7 +7,7 @@ using System.Web.Routing;
 
 namespace OpenPlatform.Web
 {
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : MyApplication
     {
         protected void Application_Start()
         {
