@@ -87,6 +87,42 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="statics\.gitattributes" />
+    <Content Include="statics\app\404.html" />
+    <Content Include="statics\app\favicon.ico" />
+    <Content Include="statics\app\images\icons\arrow-g.png" />
+    <Content Include="statics\app\images\icons\arrow-w.png" />
+    <Content Include="statics\app\images\icons\search.png" />
+    <Content Include="statics\app\images\icons\tree-close.png" />
+    <Content Include="statics\app\images\icons\tree-open.png" />
+    <Content Include="statics\app\images\icon\arrow-g.png" />
+    <Content Include="statics\app\images\icon\arrow-w.png" />
+    <Content Include="statics\app\images\icon\calendar.png" />
+    <Content Include="statics\app\images\icon\message.png" />
+    <Content Include="statics\app\images\icon\organization.png" />
+    <Content Include="statics\app\images\icon\search.png" />
+    <Content Include="statics\app\images\icon\tree-close.png" />
+    <Content Include="statics\app\images\icon\tree-open.png" />
+    <Content Include="statics\app\images\logo-wx.png" />
+    <Content Include="statics\app\images\logo.png" />
+    <Content Include="statics\app\images\yeoman.png" />
+    <Content Include="statics\app\index.html" />
+    <Content Include="statics\app\robots.txt" />
+    <Content Include="statics\app\scripts\app.js" />
+    <Content Include="statics\app\scripts\controllers\infoList.js" />
+    <Content Include="statics\app\scripts\controllers\siderbar.js" />
+    <Content Include="statics\app\scripts\directives\treeNav.js" />
+    <Content Include="statics\app\styles\bootstrap.css" />
+    <Content Include="statics\app\views\center.html" />
+    <Content Include="statics\app\views\class.html" />
+    <Content Include="statics\app\views\header.html" />
+    <Content Include="statics\app\views\main.html" />
+    <Content Include="statics\app\views\siderbar.html" />
+    <Content Include="statics\app\views\treeNav.html" />
+    <Content Include="statics\Gruntfile.js" />
+    <Content Include="statics\test\karma.conf.js" />
+    <Content Include="statics\test\spec\controllers\about.js" />
+    <Content Include="statics\test\spec\controllers\main.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +135,26 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="statics\.bowerrc" />
+    <Content Include="statics\.editorconfig" />
+    <Content Include="statics\.jshintrc" />
+    <Content Include="statics\.travis.yml" />
+    <Content Include="statics\.yo-rc.json" />
+    <Content Include="statics\app\.buildignore" />
+    <Content Include="statics\app\.htaccess" />
+    <Content Include="statics\app\.project" />
+    <Content Include="statics\app\scripts\datas\classMsList.json" />
+    <Content Include="statics\app\scripts\datas\infoList.json" />
+    <Content Include="statics\app\styles\default.scss" />
+    <Content Include="statics\app\styles\icons.scss" />
+    <Content Include="statics\app\styles\iconSprite.scss" />
+    <Content Include="statics\app\styles\main.scss" />
+    <Content Include="statics\app\styles\style-conquer.scss" />
+    <Content Include="statics\app\styles\style-responsive.scss" />
+    <Content Include="statics\app\styles\style.scss" />
+    <Content Include="statics\bower.json" />
+    <Content Include="statics\package.json" />
+    <Content Include="statics\test\.jshintrc" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -107,6 +163,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\css\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
