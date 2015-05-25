@@ -20,15 +20,15 @@ var ManagementApp = angular.module('managementApp', [
   ManagementApp.config(['$routeProvider','$locationProvider', function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html'
+        templateUrl: 'app/views/main.html'
         // controller: 'MainCtrl'
       })
       .when('/center', {
-        templateUrl: 'views/center.html'
+        templateUrl: 'app/views/center.html'
         // controller: 'MainCtrl'
       })
       .when('/class', {
-        templateUrl: 'views/class.html',
+        templateUrl: 'app/views/class.html',
         // controller: 'ClassCtrl'
       })
       .otherwise({

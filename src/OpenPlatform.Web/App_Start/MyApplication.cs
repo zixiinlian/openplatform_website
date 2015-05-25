@@ -8,7 +8,7 @@ namespace OpenPlatform.Web
 {
     public class MyApplication : HttpApplication
     {
-        private readonly Regex r = new Regex("^/statics/app/(.*)$", RegexOptions.IgnoreCase);
+        private readonly Regex r = new Regex("^/app/(.*)$", RegexOptions.IgnoreCase);
 
         public override void Init()
         {
@@ -21,7 +21,7 @@ namespace OpenPlatform.Web
             if (match.Success)
             {
                 var fileName = match.Groups[1].Value;
-                Context.RewritePath(string.Format("~/statics/app/{0}.html", fileName));
+                Context.RewritePath(string.Format("~/app/{0}.html", fileName));
             }
         }
     }

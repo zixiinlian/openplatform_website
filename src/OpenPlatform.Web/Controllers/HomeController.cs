@@ -10,7 +10,7 @@ namespace OpenPlatform.Web.Controllers
     {
         public ActionResult Index()
         {
-            return Redirect("/statics/app/index");
+            return Redirect("/app/index");
         }
     }
 }
