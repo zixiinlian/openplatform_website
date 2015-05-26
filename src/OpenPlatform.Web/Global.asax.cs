@@ -8,7 +8,7 @@ using System.Web.Http;
 
 namespace OpenPlatform.Web
 {
-    public class MvcApplication : HttpApplication
+    public class MvcApplication : MyApplication
     {
         protected void Application_Start()
         {
