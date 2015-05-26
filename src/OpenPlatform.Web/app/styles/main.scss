@@ -3,41 +3,60 @@
 $grayBg: #ecf0f1;
 
 body{
-	background: $grayBg;
+  font-family: "microsoft yahei";
+}
+.wrapper{
+  background: #34495e;
 }
 .ms-header{
-  height:90px;
-  background: #fff;
-  border-bottom: 1px solid #d4d8d8;
-  .ms-header-con{
+    background: #fff;
+  .ms-header-t{
+    height:90px;
+    border-bottom: 1px solid #d4d8d8;
+  }
+  .ms-header-b{
+    padding: 20px 20px;
+  }
+  .link-calendar,.link-message,.link-organization{
+    display:inline-block;
+    padding: 26px 10px;
   }
 }
 .ms-siderbar{
   width: 230px;
-  float:left;
+  position:absolute;
+  top: 0;
+  left: 0;
   background: #34495e;
-  min-height:100%;
-  height:500px;
+  min-height:500px;
+  height:100%;
   .my-profile{
     background: #02bf87;
-    color: #fff;
     width: 100%;
     height: 90px;
     text-align: center;
-    float:left;
     .my-pic{
+        color: #fff;
+        display: block;
+        padding: 9px 0 0 0;
+        line-height: 26px;
+    }
+    .my-pic img{
        display: inline-block;
-       width: 87px;
-       height: 87px;
+       width: 50px;
+       height: 50px;
        border-radius: 87px;
+       overflow:hidden;
     }
   }
 }
 .ms-main{
-  padding-left:220px;
+  margin-left:230px;
+  background: $grayBg;
+  min-height: 600px;
+  overflow: hidden;
 }
 .ms-logo{
-  padding: 22px 0 0 20px;
   display: block;
   width:350px;
 }
@@ -47,4 +66,7 @@ body{
   right:30px;
   top: 32px;
   width:100px;
+}
+.ms-view{
+  padding:20px;
 }

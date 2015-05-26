@@ -363,11 +363,11 @@ Form Layouts
 
 /* Checkboxes */
 .checkbox,
-.form-horizontal .checkbox {
+.checkbox {
   padding: 0;
 }
 .checkbox > label,
-.form-horizontal .checkbox > label {
+.checkbox > label {
   padding-left: 0;
 }
 
@@ -393,13 +393,13 @@ Form Layouts
 }
 
 /* Radio buttons in horizontal forms */
-.form-horizontal .radio-list .radio {
+.radio-list .radio {
   padding-top: 1px;
 }
-.form-horizontal .radio-list > label {
+.radio-list > label {
   margin-bottom: 0;
 }
-.form-horizontal .radio > span {
+.radio > span {
   margin-top: 2px;
 }
 
@@ -1232,122 +1232,6 @@ Bootstrap Tables
 
 .table tr.heading > th {
   background-color: #eee !important;
-}
-
-/***
-Fontawesome Icons
-***/
-[class^="fa-"],
-[class^="glyphicon-"],
-[class^="icon-"],
-[class*=" fa-"],
-[class*=" glyphicon-"],
-[class*=" icon-"] {
-  display: inline-block;
-  margin-top: 1px;
-  font-size: 14px;
-  *margin-right: .3em;
-  line-height: 14px;
-  -webkit-font-smoothing: antialiased;
-}
-
-/* Make font awesome icons fixed width */
-li [class^="fa-"],
-li [class^="glyphicon-"],
-li [class^="icon-"],
-li [class*=" fa-"],
-li [class*=" glyphicon-"],
-li [class*=" icon-"] {
-  display: inline-block;
-  width: 1.25em;
-  text-align: center;
-}
-
-li [class^="glyphicon-"],
-li [class*=" glyphicon-"] {
-  top: 2px;
-}
-
-li [class^="icon-"],
-li [class*=" icon-"] {
-  top: 1px;
-  position: relative;
-}
-
-li [class^="fa-"].icon-large,
-li [class^="glyphicon-"].icon-large,
-li [class^="icon-"].icon-large,
-li [class*=" fa-"].icon-large,
-li [class*=" glyphicon-"].icon-large,
-li [class*=" icon-"].icon-large {
-  /* increased font size for icon-large */
-  width: 1.5625em;
-}
-
-/* Icon coloring */
-.icon-state-default {
-  color: #c6c6c6;
-}
-
-.icon-state-success {
-  color: #45b6af;
-}
-
-.icon-state-info {
-  color: #89c4f4;
-}
-
-.icon-state-warning {
-  color: #ecbc29;
-}
-
-.icon-state-danger {
-  color: #f3565d;
-}
-
-/* Icon sizing */
-.fa-sm,
-.icon-sm {
-  font-size: 12px;
-}
-
-.fa-lg,
-.icon-lg {
-  font-size: 16px;
-}
-
-.fa-2x {
-  font-size: 2em;
-}
-
-.fa-3x {
-  font-size: 3em;
-}
-
-.fa-4x {
-  font-size: 4em;
-}
-
-.fa-5x {
-  font-size: 5em;
-}
-
-/***
-Font Awesome 4.x Demo
-***/
-.fa-item {
-  font-size: 14px;
-  padding: 10px 10px 10px 20px;
-}
-.fa-item i {
-  font-size: 16px;
-  display: inline-block;
-  width: 20px;
-  color: #333;
-}
-.fa-item:hover {
-  cursor: pointer;
-  background: #eee;
 }
 
 /***

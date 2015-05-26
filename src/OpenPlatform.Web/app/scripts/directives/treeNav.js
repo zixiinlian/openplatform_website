@@ -1,4 +1,4 @@
-//'use strict';
+'use strict';
 
 ManagementApp.directive('treenav', function(){
 	

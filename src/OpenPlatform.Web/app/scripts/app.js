@@ -31,6 +31,9 @@ var ManagementApp = angular.module('managementApp', [
         templateUrl: 'app/views/class.html',
         // controller: 'ClassCtrl'
       })
+      .when('/user', {
+        templateUrl: 'app/views/user.html',
+      })
       .otherwise({
         redirectTo: '/'
       });

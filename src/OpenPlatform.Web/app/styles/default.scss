@@ -14,7 +14,7 @@ Page header
 .header {
   filter: none;
   background-image: none;
-  background-color: #242527;
+  background-color: #242527; 
 }
 .header .navbar-nav .dropdown-toggle:hover,
 .header .navbar-nav .dropdown.open .dropdown-toggle {
@@ -113,10 +113,10 @@ ul.page-sidebar-menu > li > ul.sub-menu > li:first-child {
 ul.page-sidebar-menu > li > ul.sub-menu > li.active > a,
 ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
   color: #ffffff !important;
-  background: #243342 !important;
+  border-left: 4px solid #02bf87;
 }
 ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
-  background: #243342 !important;
+  border-left: 4px solid #02bf87;
 }
 /* 3rd level sub menu */
 ul.page-sidebar-menu > li > ul.sub-menu li > ul.sub-menu > li.active > a,
@@ -128,6 +128,7 @@ ul.page-sidebar-menu > li > ul.sub-menu li.open > a {
 /* font color for all sub menu links*/
 ul.page-sidebar-menu li > ul.sub-menu > li > a {
   color: #cecfd3;
+  border-left: 4px solid #243342;
 }
 /* sub menu bg color on hover menu item */
 .page-sidebar-closed ul.page-sidebar-menu > li:hover .sub-menu {

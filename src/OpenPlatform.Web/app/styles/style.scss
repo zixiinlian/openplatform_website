@@ -13,7 +13,7 @@ Reset and overrides
 /* general body settings */
 body { 
   color: #000; 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
   padding: 0px !important;
   margin: 0px !important;
   font-size:13px; 
@@ -547,7 +547,7 @@ Page sidebar
 ***/
 
 .ie8 .page-sidebar {
-  width: 225px;
+  width: 100%;
   float: left;
   position: relative;
   margin-left: -100%;
@@ -656,7 +656,6 @@ Page content
 .page-sidebar-menu > li.active > a {
   border: none; 
   text-shadow:none;
-  border-right: 4px solid #d12610;
 }  
 
 
@@ -676,11 +675,12 @@ Page content
 .page-sidebar-menu > li > ul.sub-menu {
   list-style: none;
   clear: both;
-  margin: 8px 0px 8px 0px;
+  padding: 8px 0px 8px 0px;
 }
 
 .page-sidebar-menu > li.active > ul.sub-menu {
   display: block;
+  background: #243342;
 }
 
 .page-sidebar-menu > li > ul.sub-menu > li {
@@ -693,7 +693,7 @@ Page content
 .page-sidebar-menu > li > ul.sub-menu > li > a {
   display: block;
   margin: 0px 0px 0px 0px;
-  padding: 6px 0px;
+  padding: 8px 0px;
   padding-left: 35px !important;
   text-decoration: none;
   font-size: 14px;

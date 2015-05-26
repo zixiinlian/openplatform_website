@@ -9,15 +9,17 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="app/styles/bootstrap.css" />
-    <link rel="stylesheet" href="app/styles/style.css" />
-    <link rel="stylesheet" href="app/styles/style-responsive.css" />
-    <link rel="stylesheet" href="app/styles/style-conquer.css" />
-    <link rel="stylesheet" href="app/styles/default.css" />
+    <link rel="stylesheet" href="dist/styles/bootstrap.css" />
+    <link rel="stylesheet" href="dist/styles/style.css" />
+    <link rel="stylesheet" href="dist/styles/style-responsive.css" />
+    <link rel="stylesheet" href="dist/styles/style-conquer.css" />
+    <link rel="stylesheet" href="dist/styles/uniform.default.css" />
+    <link rel="stylesheet" href="dist/styles/default.css" />
+    <link rel="stylesheet" href="dist/styles/tree.css?a=1" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="app/styles/main.css">
+    <link rel="stylesheet" href="dist/styles/main.css">
     <!-- endbuild -->
   </head>
   <body ng-app="managementApp">
@@ -27,8 +29,8 @@
 
     <!-- Add your site or application content here -->
     
-    <div class="wrapper">
-      <div ng-include="'app/views/siderbar.html'"></div>
+    <div class="wrapper clearfix">
+      <div ng-include="'app/views/siderbar.html'" class="ms-siderbar"></div>
       <div class="ms-main">
             <div ng-include="'app/views/header.html'"></div>
             <div ng-view="" class="ms-view"></div>

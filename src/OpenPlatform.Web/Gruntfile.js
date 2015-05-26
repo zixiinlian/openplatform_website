@@ -213,8 +213,8 @@ module.exports = function (grunt) {
         javascriptsDir: '<%= yeoman.app %>/scripts',
         fontsDir: '<%= yeoman.app %>/styles/fonts',
         importPath: './bower_components',
-        httpImagesPath: '/images',
-        httpGeneratedImagesPath: '/images/generated',
+        httpImagesPath: '/dist/images',
+        httpGeneratedImagesPath: '/dist/images/generated',
         httpFontsPath: '/styles/fonts',
         relativeAssets: false,
         assetCacheBuster: false,
@@ -433,7 +433,7 @@ module.exports = function (grunt) {
       // 'wiredep',
       'concurrent:server',
       'autoprefixer:server',
-      'connect:livereload',
+      // 'connect:livereload',
       'watch'
     ]);
   });

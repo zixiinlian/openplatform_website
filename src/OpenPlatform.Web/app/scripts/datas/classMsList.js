@@ -23,13 +23,13 @@
       ]
     },
     {
-      "name": "课件管理",
+      "name": "用户管理",
       "url": "",
       "icon": "test",
       "submenuList": [
         {
-          "name": "内容管理",
-          "url": "/courseware",
+          "name": "用户权限",
+          "url": "/user",
           "icon": "test"
         },
         {
