@@ -1,0 +1,17 @@
+<table class="table table-striped table-hover">
+	<thead>
+		<tr>
+			<th ng-repeat="thItem in thNameData">
+				{{thItem}}
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="trItem in tabledata">
+			<td ng-repeat="tdItem in trItem">{{tdItem}}</td>
+			<td>
+				<a href="javascript:;" ng-click="deleteUser()">删除</a>
+			</td>
+		</tr>
+	</tbody>
+</table>

@@ -14,7 +14,9 @@ var ManagementApp = angular.module('managementApp', [
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.bootstrap',
+    'dialogs.main'
   ]);
 
   ManagementApp.config(['$routeProvider','$locationProvider', function ($routeProvider, $locationProvider) {
@@ -33,6 +35,7 @@ var ManagementApp = angular.module('managementApp', [
       })
       .when('/user', {
         templateUrl: 'app/views/user.html',
+        controller: 'UserController'
       })
       .otherwise({
         redirectTo: '/'
