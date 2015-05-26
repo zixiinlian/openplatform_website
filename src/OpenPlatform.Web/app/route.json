@@ -1,0 +1,40 @@
+﻿{
+    "routes": [
+        {
+            "name": "route1",
+            "controller": "admin",
+            "view": "home",
+            "url": "~/app/views/admin/home.html",
+            "permissions": [
+                {
+                    "name": "readLog",
+                    "id": "abcd"
+                }
+            ],
+            "roles": [
+                {
+                    "name": "admin",
+                    "id": "abcd"
+                }
+            ]
+        },
+        {
+            "name": "route2",
+            "controller": "admin",
+            "view": "message",
+            "url": "~/app/views/admin/message.html",
+            "permissions": [
+                {
+                    "name": "readMessage",
+                    "id": "abcd1"
+                }
+            ],
+            "roles": [
+                {
+                    "name": "admin",
+                    "id": "abcd"
+                }
+            ]
+        }
+    ]
+}
