@@ -14,7 +14,7 @@ ManagementApp.controller('UserController', function($scope, $http, dialogs) {
 			$scope.thNameData = ["用户编号", "用户名", "是否有效", "创建时间", "登陆时间", "操作"];
 
 			$scope.deleteUser = function() {
-				var dlg = dialogs.confirm('Please Confirm', 'Is this awesome or what?',{
+				var dlg = dialogs.confirm('删除用户', '确认要删除该用户吗？', {
 					width: 200
 				});
 				dlg.result.then(function(btn) {
@@ -37,18 +37,30 @@ ManagementApp.controller('UserController', function($scope, $http, dialogs) {
 			};
 		});
 	})
-	.controller('addUserController', function($scope, $modalInstance, data) {
+	.controller('addUserController', function($scope, $http, $modalInstance, data) {
 		$scope.user = {
 			name: ''
 		};
 
 		$scope.cancel = function() {
-			// $modalInstance.dismiss('canceled');
-		}; // end cancel
+			$modalInstance.dismiss('canceled');
+		};
 
 		$scope.save = function() {
-			// $modalInstance.close($scope.user.name);
-		}; // end save
+			var data = {
+				userName: 'Test1',
+				userType: '沪江用户',
+				mail: '835dsfsdf',
+				name: '沪江用户',
+				isActive: true
+			};
+
+			$http.post('/api/Users/', data).success(function(response) {
+				console.log(response);
+			});
+
+			$modalInstance.close();
+		};
 
 		$scope.hitEnter = function(evt) {
 			// if (angular.equals(evt.keyCode, 13) && !(angular.equals($scope.name, null) || angular.equals($scope.name, '')))

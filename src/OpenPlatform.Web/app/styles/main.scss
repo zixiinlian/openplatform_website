@@ -2,11 +2,15 @@
 
 $grayBg: #ecf0f1;
 
+html,body{
+  height:100%;
+}
 body{
   font-family: "microsoft yahei";
 }
 .wrapper{
   background: #34495e;
+  height:100%;
 }
 .ms-header{
     background: #fff;
@@ -55,6 +59,7 @@ body{
   background: $grayBg;
   min-height: 600px;
   overflow: hidden;
+  height:100%;
 }
 .ms-logo{
   display: block;
