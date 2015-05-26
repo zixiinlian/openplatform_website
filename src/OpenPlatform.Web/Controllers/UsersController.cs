@@ -4,27 +4,28 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using OpenPlatform.WebModels;
 
 namespace OpenPlatform.Web.Controllers
 {
     public class UsersController : ApiController
     {
         // GET: api/Users
-        public IEnumerable<string> Get()
+        public IEnumerable<User> Get()
         {
-            return new string[] { "value1", "value2" };
+            return UserTestHelper.Get();
         }
 
-        [HttpGet, Route("api/users/{id}")]
         // GET: api/Users/5
-        public string Get(int id)
+        public User Get(int id)
         {
-            return "value";
+            return UserTestHelper.Get(id);
         }
 
         // POST: api/Users
-        public void Post([FromBody]string value)
+        public void Post([FromBody]User value)
         {
+            UserTestHelper.Add(value);
         }
 
         // PUT: api/Users/5
