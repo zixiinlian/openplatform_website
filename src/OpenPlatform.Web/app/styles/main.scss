@@ -8,6 +8,15 @@ html,body{
 body{
   font-family: "microsoft yahei";
 }
+.fr{
+  float:right;
+}
+.fl{
+  float:left;
+}
+.green{
+  color: #02BF87;
+}
 .wrapper{
   background: #34495e;
   height:100%;
@@ -21,7 +30,7 @@ body{
   .ms-header-b{
     padding: 20px 20px;
   }
-  .link-calendar,.link-message,.link-organization{
+  .link-calendar,.link-message,.link-organization,.link-login{
     display:inline-block;
     padding: 26px 10px;
   }
@@ -74,4 +83,18 @@ body{
 }
 .ms-view{
   padding:20px;
+}
+.login-box{
+  padding: 20px 40px;
+  .input-icon i{
+    width: 36px;
+    height: 36px;
+    margin: 5px 2px 4px 10px;
+  }
+  .input-icon input,select {
+    padding-left: 49px !important;
+  }
+  .form-control{
+    height: 49px;
+  }
 }

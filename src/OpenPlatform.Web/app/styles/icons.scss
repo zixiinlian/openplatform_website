@@ -22,3 +22,9 @@
 .icon-zcontact{
     @include iconSprite(tree-zcontact);width: auto;display: block;height: auto;padding-top: 14px;margin-top: -14px;;
 }
+.icon-user{
+    @include iconSprite(user); 
+}
+.icon-passport{
+    @include iconSprite(passport); 
+}
